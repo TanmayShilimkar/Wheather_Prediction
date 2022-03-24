@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+}
+
+body {
+    background-image: url('starfall-gif-46\ \(1\).gif');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+
+.app-main
+{
+    background-image: url('background.gif');
+    background-size: cover;
+    border-style:groove;
+    border-radius: 5%;
+    width: 26rem;
+    margin: 5rem auto;
+    padding: 1rem;
+    text-align: center;
+    height: 26.2rem;
+}
+
+.input-box
+{
+    border: none;
+    color: aliceblue; 
+    font-size: 1.5rem; 
+    text-transform: capitalize; 
+    border-radius: 1.2rem;
+    height: 3.5rem;
+    width: 24rem;
+    background: transparent;
+    text-align: center;
+    background-color:rgba(147, 170, 189, 0.479);
+    margin-bottom: 0.5rem;
+
+}   
+
+::placeholder { 
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+.input-box:focus
+{
+    background-color: rgba(241, 247, 248, 0.486);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.weather-body 
+{
+    position:center;
+    color:white;
+    padding: 1rem;
+    margin-left: 1rem;
+    line-height: 2.3rem;
+    border-radius: 1.2rem;
+    background-color:rgba(147, 170, 189, 0.320);
+    height : 20rem;
+    width: 22rem;
+}
+
+.city
+{
+    font-size: 2rem;
+}
+
+.location-details
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+       
+}
+
+.temp
+{
+        margin-bottom: 1rem;
+        font-size: 4rem;
+        font-weight: 500;
+        text-shadow: 2px 2px rgba(0,0,0,2);
+
+}
+
+.weather-status
+{
+    padding: 1rem;
+
+}
+
+.min-max
+{
+    font-size: 1.2rem;
+}
+
+.weather
+{
+    font-size: 2rem;
+    color:lavenderblush;
+    text-decoration: underline;
+}
+
+.footer{
+    background: #14141bec;
+    text-align: center;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+
+.footer .credit{
+    font-size: 1.5rem;
+    color:#fff;
+    font-weight: lighter;
+    padding:1rem;
+}
+
+.footer .credit span{
+    color: #b19061;
+}
+
